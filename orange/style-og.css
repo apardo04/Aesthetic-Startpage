@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro);
 
+/* html {
+  max-width: 100%;
+} */
 body {
   background-color: rgb(36, 36, 36);
   font-family: "Source Code Pro", monospace;
@@ -10,35 +13,35 @@ body {
 
 .box-landscape {
   background-color: rgba(35, 35, 35, 0.902);
-  margin-top: 11%;
+  margin-top: 10%;
   height: 800px;
   width: 700px;
-  box-shadow: -15px 15px 20px rgb(253, 129, 57);
-  transition: all 0.2s ease-in-out;
+  box-shadow: -15px 15px 20px rgb(20, 20, 20);
+  /* transition: all 0.2s fade-in-out; */
   display: flex;
   flex-direction: row;
   backdrop-filter: blur(8px);
-
-  box-shadow: 0px 0px 22px rgb(253, 129, 57);
+  box-shadow: 0px 0px 40px rgb(0, 0, 0);
 }
 
 .links {
   width: 300px;
+  padding-left: 20px;
   margin-top: -20px;
   margin-left: 60px;
   color: aliceblue;
   font-size: 20px;
   font-weight: 100;
-  padding-top: 15px;
+  padding-top: 20px;
   border-color: rgba(255, 255, 255, 0);
   border-style: solid;
   border-width: 2px;
 }
 
 .box-img2 {
-    height: 684px;
+  height: 690px;
   padding-left: 10px;
-  padding-top: 12px;
+  padding-top: 15px;
 }
 
 h3 {
@@ -66,11 +69,18 @@ a {
   color: aliceblue;
 }
 
+.wrapper {
+  margin-top: 30px;
+  margin-left: 50px;
+  padding-left: 20px;
+}
+
 form {
   font-size: 2em;
   margin-bottom: 0px;
-  padding-top: 73px;
-  margin-left: -421px;
+  padding-top: 0px;
+  margin-left: -460px;
+  margin-top: 0px;
 
   border: none;
   color: rgb(249, 128, 30);
@@ -86,4 +96,13 @@ form input {
 
 form input:focus {
   outline: none;
+}
+.bg {
+  height: 780px;
+  position: fixed;
+  width: 700px;
+  background-color: rgb(253, 129, 57);
+  margin-left: -40px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 30px rgb(255, 150, 85);
 }
